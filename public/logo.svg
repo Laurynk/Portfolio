@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.16 144.16">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #d2ac47;
+      }
+    </style>
+  </defs>
+  <g id="Logo_1_colored_" data-name="Logo 1 (colored)">
+    <circle class="cls-1" cx="72.08" cy="72.08" r="72.08"/>
+    <path class="cls-2" d="M113.15,124.98h7.4,0v-4.53h-5.25l-54.23-46.81,57.11-47.98h-7.4l-54.3,45.83V27.17h8v-5.29H20.5v5.29h17.49v92.52h-13.05v5.29h13.05s58.33,0,58.33,0h0s16.82,0,16.82,0h0ZM42.7,120.4V27.17h8.6v93.24h-8.6ZM96.32,120.45v-.05h-39.84v-44.34l51.42,44.39h-11.58Z"/>
+  </g>
+</svg>

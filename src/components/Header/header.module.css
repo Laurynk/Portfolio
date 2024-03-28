@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    background: white;
+    border-radius: 30px;
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../../public/background-image.png");
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+  .button {
+    border-radius: 50px;
+    background-color: #ffc001;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    padding: 0px;
+    width: 200px;
+    height: 50px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 25px;
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .getStarted {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    color: #ffffff;
+  }
+
+  .buttonFunction {
+    display: flex;
+    flex-direction: row;
+  }
