@@ -3,6 +3,7 @@ import styles from './header.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 import Arrow from '../../../public/Arrow.svg'
+import Portrait from '../../../public/self-image.webp'
 
 export default function Header() {
 
@@ -25,8 +26,8 @@ export default function Header() {
                     </div>
                 </div>
             </div>
-            <div>
-
+            <div className={styles.image}>
+                <Image src={Portrait} width={500} height={650} alt='portrait'/>
             </div>
         </div>
     )

@@ -1,0 +1,19 @@
+.container {
+    font-family: "Montserrat", sans-serif;
+    background-color: #ffc001;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.vl {
+    border-left: 4px solid #0000;
+    height: 40px;
+}
