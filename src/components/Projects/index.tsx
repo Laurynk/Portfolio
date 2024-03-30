@@ -63,7 +63,7 @@ export default function Projects() {
                         <div className={styles.buttonFunction}>
                             <button className={styles.button}>
                                 <span>
-                                    <Link href="https://www.laurynkung.ca/Aphrodite-trials" className={styles.viewProjects}>View Project</Link>
+                                    <Link href="https://www.laurynkung.ca/aphrodite-trials" className={styles.viewProjects}>View Project</Link>
                                 </span>
                             </button>
                         </div>
